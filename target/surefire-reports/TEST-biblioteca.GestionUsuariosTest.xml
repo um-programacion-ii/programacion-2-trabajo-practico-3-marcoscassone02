@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="biblioteca.SistemaPrestamosTest" time="0.031" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="biblioteca.GestionUsuariosTest" time="0.352" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -54,7 +54,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testPrestarLibro" classname="biblioteca.SistemaPrestamosTest" time="0.025"/>
-  <testcase name="testSimulacionCatalogoLibros" classname="biblioteca.SistemaPrestamosTest" time="0.002"/>
-  <testcase name="testObtenerPrestamosPorLibro" classname="biblioteca.SistemaPrestamosTest" time="0.002"/>
+  <testcase name="testRegistrarUsuarioExitoso" classname="biblioteca.GestionUsuariosTest" time="0.323"/>
+  <testcase name="testRegistrarUsuarioExistente" classname="biblioteca.GestionUsuariosTest" time="0.002"/>
+  <testcase name="testManejoDeExcepcionEnPrestamo" classname="biblioteca.GestionUsuariosTest" time="0.002"/>
+  <testcase name="testAgregarPrestamo" classname="biblioteca.GestionUsuariosTest" time="0.015"/>
+  <testcase name="testObtenerUsuarioNoExistente" classname="biblioteca.GestionUsuariosTest" time="0.001"/>
 </testsuite>

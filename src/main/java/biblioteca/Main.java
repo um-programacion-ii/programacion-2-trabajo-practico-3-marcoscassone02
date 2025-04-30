@@ -1,3 +1,4 @@
+import biblioteca.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -5,9 +6,9 @@ public class Main {
         Catalogo catalogo = new Catalogo();
 
         // Crear libros
-        Libro libro1 = new Libro("123", "El Principito", "Antoine de Saint-Exupéry", EstadoLibro.DISPONIBLE);
-        Libro libro2 = new Libro("456", "Cien años de soledad", "Gabriel García Márquez", EstadoLibro.PRESTADO);
-        Libro libro3 = new Libro("789", "1984", "George Orwell", EstadoLibro.DISPONIBLE);
+        Libro libro1 = new Libro("123", "El Principito", "Antoine de Saint-Exupéry");
+        Libro libro2 = new Libro("456", "Cien años de soledad", "Gabriel García Márquez");
+        Libro libro3 = new Libro("789", "1984", "George Orwell");
 
         // Agregar libros al catálogo
         catalogo.agregarLibro(libro1);
